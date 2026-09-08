@@ -2,5 +2,5 @@
 Projeto da disciplina de Computação Concorrente, Paralela e Distribuída.  
 
 ### Alunos
-- Maria Eduarda Rodrigues Moraes
+- Maria Eduarda Rodrigues Moraessr
 - Mathues Melquiades Nunes

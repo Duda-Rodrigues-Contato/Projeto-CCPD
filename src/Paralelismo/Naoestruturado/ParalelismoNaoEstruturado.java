@@ -1,4 +1,4 @@
-package Paralelismo.Estruturado;
+package Paralelismo.Naoestruturado;
 
 /*
 import core.Calcular;
@@ -6,4 +6,4 @@ import java.util.*;
 import java.util.concurrent.*;
 */
 
-public class ParalelismoEstruturado {}
+public class ParalelismoNaoEstruturado {}

@@ -29,5 +29,4 @@ Projeto-CCPD/
 │           └── ParalelismoEstruturado.java       # Funções do Paralelismo Estruturado.
 │       └── NaoEstruturado/
 │           └── ParalelismoNaoEstruturado.java    # Funções do Paralelismo Não Estruturado.
-
 ```

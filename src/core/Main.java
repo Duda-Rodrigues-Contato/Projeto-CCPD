@@ -5,8 +5,10 @@ import Implementacaosequencial.Sequencial;
 //import Paralelismo.Naoestruturado.ParalelismoNaoEstruturado;
 //import Paralelismo.Estadocompartilhado.ParalelismoAtomico;
 //import Paralelismo.Estadocompartilhado.ParalelismoConcorrente;
+import Paralelismo.Naoestruturado.ParalelismoNaoEstruturado;
 
 import java.util.Scanner;
+import java.util.concurrent.ExecutionException;
 
 public class Main {
 
@@ -86,7 +88,7 @@ public class Main {
                 System.out.println();
         }
 
-        public static void main(String[] args) {
+        public static void main(String[] args) throws InterruptedException, ExecutionException {
 
                 Scanner scanner = new Scanner(System.in);
 
@@ -147,14 +149,16 @@ public class Main {
                                                         // Executar processo paralela não estruturada
                                                         System.out.println();
                                                         System.out.println("==========================================");
-                                                        System.out.println("       PROCESSAMENTO PARALELO ESTRUTURADO ");
+                                                        System.out.println("       PROCESSAMENTO PARALELO NAO ESTRUTURADO ");
                                                         System.out.println("==========================================");
+
+                                                        ParalelismoNaoEstruturado.processar(GerarMatriz.gerarMatriz(500, 500), 4);
                                                         break;
                                                 case 3:
                                                         // Executar processo paralela estruturada
                                                         System.out.println();
                                                         System.out.println("==========================================");
-                                                        System.out.println("       PROCESSAMENTO PARALELO NÃOESTRUTURADO ");
+                                                        System.out.println("       PROCESSAMENTO PARALELO ESTRUTURADO ");
                                                         System.out.println("==========================================");
                                                         break;
                                                 case 4:

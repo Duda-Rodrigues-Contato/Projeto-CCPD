@@ -68,7 +68,7 @@ public class ParalelismoNaoEstruturado {
     public static void main(String[] args) throws InterruptedException, ExecutionException {
 
         int tamanhoMatriz = 1000;
-        int tarefas = 4;
+        int tarefas = 10;
 
         double[][] matriz = GerarMatriz.gerarMatriz(tamanhoMatriz, tamanhoMatriz);
 

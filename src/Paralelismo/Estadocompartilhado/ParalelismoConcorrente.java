@@ -1,7 +1,8 @@
 package Paralelismo.Estadocompartilhado;
 
 import java.util.Queue;
-import java.util.concurrent.*;
+import java.util.concurrent.ConcurrentLinkedQueue;
+import java.util.concurrent.StructuredTaskScope;
 
 import Implementacaosequencial.Sequencial;
 import core.Calcular;
@@ -14,28 +15,28 @@ public class ParalelismoConcorrente {
         int linhas = matriz.length;
         int tamanhoBloco = linhas / tarefas;
 
-        Queue<Double> resultadosParciais = new ConcurrentLinkedQueue<>(); // Coleção Concorrente para armazenar os
-                                                                          // resultados parciais das tarefas
+        Queue<Double> resultadosParciais = new ConcurrentLinkedQueue<>();
 
-        ExecutorService executor = Executors.newFixedThreadPool(Runtime.getRuntime().availableProcessors());
 
-        try {
+        try (var scope = StructuredTaskScope.open()) {
+
             for (int i = 0; i < tarefas; i++) {
                 int inicio = i * tamanhoBloco;
                 int fim = (i == tarefas - 1) ? linhas : inicio + tamanhoBloco;
 
-                executor.submit(() -> {
+                scope.fork(() -> {
                     double parcial = processarBloco(matriz, inicio, fim);
-                    resultadosParciais.add(parcial); // Adição segura e thread-safe na coleção
+                    resultadosParciais.add(parcial);
                 });
 
             }
-        } finally {
-            executor.shutdown();
-            executor.awaitTermination(1, TimeUnit.HOURS);
+
+
+            scope.join();
+
         }
 
-        // Agregação dos valores armazenados na coleção concorrente
+
         double resultadoTotal = 0.0;
         for (Double parcial : resultadosParciais) {
             resultadoTotal += parcial;
@@ -69,7 +70,7 @@ public class ParalelismoConcorrente {
         System.out.println("=== Referência sequencial ===");
         double referencia = Sequencial.processar(matriz);
 
-        System.out.println("=== V3 - Coleções Concorrentes (ConcurrentLinkedQueue) ===");
+        System.out.println("=== V4b - Estruturado + Coleções Concorrentes (ConcurrentLinkedQueue) ===");
         for (int tarefas1 : new int[] { 5, 10, 100 }) {
             long inicio = System.nanoTime();
             double resultado = processar(matriz, tarefas1);

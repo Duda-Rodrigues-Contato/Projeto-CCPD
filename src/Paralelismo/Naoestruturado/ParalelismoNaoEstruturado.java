@@ -35,14 +35,12 @@ public class ParalelismoNaoEstruturado {
 
             }
 
-            // Coleta manual e bloqueante dos resultados de cada Future individual
             for (Future<Double> future : futures) {
-                resultado += future.get(); // Bloqueia até que o resultado esteja disponível
+                resultado += future.get();
             }
 
         } finally {
-            // No modelo não estruturado, o encerramento do Executor deve ser garantido manualmente
-            executor.shutdown(); // Certifica-se de que o executor seja encerrado após a conclusão das tarefas
+            executor.shutdown(); 
         }
 
         return resultado;
@@ -75,7 +73,7 @@ public class ParalelismoNaoEstruturado {
         System.out.println("=== Referência sequencial ===");
         double referencia = Sequencial.processar(matriz);
 
-        System.out.println("=== V3 - Paralelismo não estruturado ===");
+        System.out.println("=== V2 - Paralelismo não estruturado ===");
         System.out.println("Núcleos disponíveis: " + Runtime.getRuntime().availableProcessors());
 
         for (int tarefas1 : new int[]{5, 10, 100}) {

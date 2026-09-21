@@ -72,13 +72,6 @@ Para comparar o desempenho manualmente, execute a mesma matriz com implementaç�
 → Resultado: 123456.789012 | Tempo: 842.311 ms
 ```
 
-``` Exemplo 2:
-1 → escolhe matriz 500x500
-→ escolhe "Paralelismo estruturado"
-→ informa 10 tarefas
-→ Resultado: 123456.789012 | Tempo: 213.045 ms
-```
-
 O **resultado** deve ser o mesmo (ou muito próximo, dada a natureza de soma em ponto flutuante) entre todas as implementações para a mesma matriz — isso confirma a corretude da versão paralela.
 
 ## Executando o benchmark completo (opcional)
@@ -89,7 +82,7 @@ Caso o grupo tenha implementado o `Experimento.java`, é possível rodar automat
 java --enable-preview -cp bin core.Experimento
 ```
 
-O resultado é salvo em `resultados/tabela_final.csv`, com tempo médio, speedup e verificação de corretude para cada combinação.
+O resultado é salvo em `resultados/experimentos.csv`, com tempo médio, speedup e verificação de corretude para cada combinação.
 
 > A pasta `resultados/` deve existir previamente na raiz do projeto.
 

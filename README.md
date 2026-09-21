@@ -54,11 +54,41 @@ Manual completo de uso em [`docs/manual-utilizacao.md`](manual-utilizacao.md).
 
 ## Prevenção de Deadlock, Livelock e Starvation
 
-*(preencher conforme a implementação final do grupo — este é um critério avaliado, 20% da nota)*
+As quatro versões foram projetadas para que esses problemas não possam ocorrer, e não apenas para que sejam improváveis. A base disso é a forma como o trabalho é dividido: cada tarefa processa um bloco fixo de linhas usando apenas variáveis locais, a matriz é somente lida, e o estado compartilhado (V4) é escrito uma única vez por tarefa, com estruturas não bloqueantes.
 
-- **Deadlock**: descrever por que não ocorre (ex.: nenhuma tarefa aguarda lock mantido por outra; sem locks aninhados).
-- **Livelock**: descrever por que não ocorre (ex.: sem retries que dependem do estado de outra tarefa).
-- **Starvation**: descrever por que não ocorre (ex.: divisão de blocos é fixa e igualitária entre as tarefas, sem fila de prioridade).
+### Deadlock
+
+Um deadlock exige que threads **segurem um recurso enquanto esperam por outro**, formando uma espera circular. Nenhuma das condições para isso existe no projeto:
+
+- **Não há locks.** Nenhuma versão usa `synchronized`, `Lock` ou semáforos. O estado compartilhado usa `DoubleAdder`, `AtomicInteger` (V4a) e `ConcurrentLinkedQueue` (V4b), que são operações atômicas baseadas em CAS: uma thread nunca fica bloqueada segurando algo que outra precisa.
+- **As tarefas não esperam umas pelas outras.** Cada tarefa apenas calcula seu bloco e termina. Nenhuma submete subtarefas ao mesmo executor e espera por elas, o que evita o deadlock clássico de pool de threads.
+- **A espera é em uma única direção.** Só a thread principal espera: por `future.get()` na V2 e por `scope.join()` nas versões estruturadas. As tarefas nunca esperam pela thread principal, então não há ciclo.
+- **A espera sempre termina.** Cada tarefa tem uma quantidade finita de trabalho. Se uma falhar, na V2 o `get()` lança `ExecutionException` e o `finally` encerra o executor; nas versões estruturadas, o `StructuredTaskScope` cancela as demais subtarefas e o `join()` propaga a falha.
+
+### Livelock
+
+Um livelock ocorre quando threads continuam ativas, mas **ficam reagindo umas às outras sem progredir**, como em tentativas repetidas que dependem do estado de outra thread.
+
+- **Não há laços de nova tentativa no código.** Nenhuma tarefa verifica o estado de outra para decidir o que fazer, e não existe lógica de "tentar de novo".
+- **A única repetição é interna às classes atômicas.** Quando um CAS falha, é porque outra thread concluiu sua escrita com sucesso. Ou seja, toda falha significa progresso de alguém, e o sistema como um todo sempre avança.
+- **A disputa é mínima.** Cada tarefa escreve no estado compartilhado uma única vez, depois de calcular o bloco inteiro localmente. Com 5, 10 ou 100 tarefas, são no máximo 100 escritas concorrentes, contra centenas de milhares de cálculos independentes.
+
+### Starvation
+
+Starvation ocorre quando uma thread **nunca consegue os recursos de que precisa** para executar, por exemplo por ter prioridade menor ou perder sempre a disputa por um lock.
+
+- **A divisão é fixa e igualitária.** Todas as tarefas recebem `linhas / tarefas` linhas, e a última recebe as que sobrarem da divisão. Nenhuma tarefa compete por trabalho ou depende da ordem de execução para receber sua parte.
+- **Não há prioridades.** Todas as threads usam a prioridade padrão, e nenhuma fila favorece uma tarefa em relação às outras.
+- **Toda tarefa enfileirada é executada.** Na V2, as tarefas excedentes aguardam na fila do `ExecutorService`, que é atendida em ordem de chegada. Nas versões estruturadas, as virtual threads são distribuídas entre as threads do sistema pelo escalonador da JVM. Como cada tarefa termina e libera sua thread, as que estão aguardando sempre chegam a executar.
+- **Não há lock para disputar.** Sem locks, nenhuma thread pode ser preterida repetidamente no acesso a um recurso.
+
+### Resumo
+
+| Problema | Condição necessária | Por que não ocorre |
+|---|---|---|
+| Deadlock | Recursos retidos + espera circular | Sem locks; tarefas independentes; só a thread principal espera |
+| Livelock | Tentativas repetidas dependentes de outras threads | Sem laços de nova tentativa; falha de CAS implica progresso de outra thread |
+| Starvation | Acesso desigual a recursos ou prioridades | Blocos fixos e iguais; sem prioridades; filas atendidas em ordem |
 
 ## Resultados dos experimentos
 

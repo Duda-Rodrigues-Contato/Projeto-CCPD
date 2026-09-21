@@ -4,7 +4,7 @@ Este manual explica como compilar, executar e utilizar a aplicação, incluindo 
 
 ## Pré-requisitos
 
-- JDK 21 ou superior instalado (necessário para `StructuredTaskScope`, que é uma *preview feature*).
+- JDK 26 ou superior instalado (necessário para `StructuredTaskScope`, que é uma *preview feature*).
 - Verificar a versão instalada:
 
 ```bash

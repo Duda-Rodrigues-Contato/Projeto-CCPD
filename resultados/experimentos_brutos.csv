@@ -1,0 +1,521 @@
+versao;linhas;colunas;tarefas;execucao;tempo_ms;resultado;resultado_correto
+V1 - Sequencial;500;500;-;1;3280,736;1264682,8309984687;sim
+V1 - Sequencial;500;500;-;2;3246,745;1264682,8309984687;sim
+V1 - Sequencial;500;500;-;3;3217,160;1264682,8309984687;sim
+V1 - Sequencial;500;500;-;4;3198,227;1264682,8309984687;sim
+V1 - Sequencial;500;500;-;5;3225,119;1264682,8309984687;sim
+V1 - Sequencial;500;500;-;6;3199,117;1264682,8309984687;sim
+V1 - Sequencial;500;500;-;7;3205,073;1264682,8309984687;sim
+V1 - Sequencial;500;500;-;8;3211,132;1264682,8309984687;sim
+V1 - Sequencial;500;500;-;9;3196,004;1264682,8309984687;sim
+V1 - Sequencial;500;500;-;10;3212,467;1264682,8309984687;sim
+V2 - Paralelismo nao estruturado;500;500;5;1;856,410;1264682,8309987728;sim
+V2 - Paralelismo nao estruturado;500;500;5;2;748,895;1264682,8309987728;sim
+V2 - Paralelismo nao estruturado;500;500;5;3;721,483;1264682,8309987728;sim
+V2 - Paralelismo nao estruturado;500;500;5;4;736,444;1264682,8309987728;sim
+V2 - Paralelismo nao estruturado;500;500;5;5;744,775;1264682,8309987728;sim
+V2 - Paralelismo nao estruturado;500;500;5;6;737,363;1264682,8309987728;sim
+V2 - Paralelismo nao estruturado;500;500;5;7;749,061;1264682,8309987728;sim
+V2 - Paralelismo nao estruturado;500;500;5;8;734,267;1264682,8309987728;sim
+V2 - Paralelismo nao estruturado;500;500;5;9;777,198;1264682,8309987728;sim
+V2 - Paralelismo nao estruturado;500;500;5;10;715,825;1264682,8309987728;sim
+V2 - Paralelismo nao estruturado;500;500;10;1;600,358;1264682,8309986220;sim
+V2 - Paralelismo nao estruturado;500;500;10;2;611,516;1264682,8309986220;sim
+V2 - Paralelismo nao estruturado;500;500;10;3;629,599;1264682,8309986220;sim
+V2 - Paralelismo nao estruturado;500;500;10;4;636,628;1264682,8309986220;sim
+V2 - Paralelismo nao estruturado;500;500;10;5;611,072;1264682,8309986220;sim
+V2 - Paralelismo nao estruturado;500;500;10;6;576,367;1264682,8309986220;sim
+V2 - Paralelismo nao estruturado;500;500;10;7;623,616;1264682,8309986220;sim
+V2 - Paralelismo nao estruturado;500;500;10;8;623,161;1264682,8309986220;sim
+V2 - Paralelismo nao estruturado;500;500;10;9;635,311;1264682,8309986220;sim
+V2 - Paralelismo nao estruturado;500;500;10;10;635,157;1264682,8309986220;sim
+V2 - Paralelismo nao estruturado;500;500;100;1;535,090;1264682,8309986508;sim
+V2 - Paralelismo nao estruturado;500;500;100;2;512,450;1264682,8309986508;sim
+V2 - Paralelismo nao estruturado;500;500;100;3;563,267;1264682,8309986508;sim
+V2 - Paralelismo nao estruturado;500;500;100;4;494,671;1264682,8309986508;sim
+V2 - Paralelismo nao estruturado;500;500;100;5;493,872;1264682,8309986508;sim
+V2 - Paralelismo nao estruturado;500;500;100;6;493,283;1264682,8309986508;sim
+V2 - Paralelismo nao estruturado;500;500;100;7;509,094;1264682,8309986508;sim
+V2 - Paralelismo nao estruturado;500;500;100;8;523,355;1264682,8309986508;sim
+V2 - Paralelismo nao estruturado;500;500;100;9;506,422;1264682,8309986508;sim
+V2 - Paralelismo nao estruturado;500;500;100;10;490,632;1264682,8309986508;sim
+V3 - Paralelismo estruturado;500;500;5;1;732,680;1264682,8309987728;sim
+V3 - Paralelismo estruturado;500;500;5;2;794,022;1264682,8309987728;sim
+V3 - Paralelismo estruturado;500;500;5;3;822,999;1264682,8309987728;sim
+V3 - Paralelismo estruturado;500;500;5;4;796,869;1264682,8309987728;sim
+V3 - Paralelismo estruturado;500;500;5;5;826,638;1264682,8309987728;sim
+V3 - Paralelismo estruturado;500;500;5;6;846,850;1264682,8309987728;sim
+V3 - Paralelismo estruturado;500;500;5;7;834,860;1264682,8309987728;sim
+V3 - Paralelismo estruturado;500;500;5;8;767,038;1264682,8309987728;sim
+V3 - Paralelismo estruturado;500;500;5;9;806,167;1264682,8309987728;sim
+V3 - Paralelismo estruturado;500;500;5;10;826,422;1264682,8309987728;sim
+V3 - Paralelismo estruturado;500;500;10;1;627,148;1264682,8309986220;sim
+V3 - Paralelismo estruturado;500;500;10;2;634,591;1264682,8309986220;sim
+V3 - Paralelismo estruturado;500;500;10;3;596,458;1264682,8309986220;sim
+V3 - Paralelismo estruturado;500;500;10;4;591,950;1264682,8309986220;sim
+V3 - Paralelismo estruturado;500;500;10;5;627,214;1264682,8309986220;sim
+V3 - Paralelismo estruturado;500;500;10;6;639,736;1264682,8309986220;sim
+V3 - Paralelismo estruturado;500;500;10;7;625,675;1264682,8309986220;sim
+V3 - Paralelismo estruturado;500;500;10;8;571,544;1264682,8309986220;sim
+V3 - Paralelismo estruturado;500;500;10;9;605,841;1264682,8309986220;sim
+V3 - Paralelismo estruturado;500;500;10;10;597,153;1264682,8309986220;sim
+V3 - Paralelismo estruturado;500;500;100;1;505,845;1264682,8309986508;sim
+V3 - Paralelismo estruturado;500;500;100;2;500,327;1264682,8309986508;sim
+V3 - Paralelismo estruturado;500;500;100;3;502,077;1264682,8309986508;sim
+V3 - Paralelismo estruturado;500;500;100;4;496,691;1264682,8309986508;sim
+V3 - Paralelismo estruturado;500;500;100;5;500,090;1264682,8309986508;sim
+V3 - Paralelismo estruturado;500;500;100;6;492,988;1264682,8309986508;sim
+V3 - Paralelismo estruturado;500;500;100;7;496,662;1264682,8309986508;sim
+V3 - Paralelismo estruturado;500;500;100;8;499,817;1264682,8309986508;sim
+V3 - Paralelismo estruturado;500;500;100;9;510,010;1264682,8309986508;sim
+V3 - Paralelismo estruturado;500;500;100;10;507,179;1264682,8309986508;sim
+V4a - Estruturado + variavel atomica;500;500;5;1;818,073;1264682,8309987728;sim
+V4a - Estruturado + variavel atomica;500;500;5;2;821,875;1264682,8309987728;sim
+V4a - Estruturado + variavel atomica;500;500;5;3;800,435;1264682,8309987728;sim
+V4a - Estruturado + variavel atomica;500;500;5;4;796,325;1264682,8309987728;sim
+V4a - Estruturado + variavel atomica;500;500;5;5;815,916;1264682,8309987728;sim
+V4a - Estruturado + variavel atomica;500;500;5;6;845,559;1264682,8309987728;sim
+V4a - Estruturado + variavel atomica;500;500;5;7;812,757;1264682,8309987728;sim
+V4a - Estruturado + variavel atomica;500;500;5;8;814,646;1264682,8309987728;sim
+V4a - Estruturado + variavel atomica;500;500;5;9;822,539;1264682,8309987728;sim
+V4a - Estruturado + variavel atomica;500;500;5;10;834,327;1264682,8309987728;sim
+V4a - Estruturado + variavel atomica;500;500;10;1;598,875;1264682,8309986220;sim
+V4a - Estruturado + variavel atomica;500;500;10;2;581,930;1264682,8309986220;sim
+V4a - Estruturado + variavel atomica;500;500;10;3;597,138;1264682,8309986220;sim
+V4a - Estruturado + variavel atomica;500;500;10;4;583,508;1264682,8309986220;sim
+V4a - Estruturado + variavel atomica;500;500;10;5;581,840;1264682,8309986220;sim
+V4a - Estruturado + variavel atomica;500;500;10;6;621,160;1264682,8309986220;sim
+V4a - Estruturado + variavel atomica;500;500;10;7;600,503;1264682,8309986223;sim
+V4a - Estruturado + variavel atomica;500;500;10;8;614,466;1264682,8309986220;sim
+V4a - Estruturado + variavel atomica;500;500;10;9;598,185;1264682,8309986220;sim
+V4a - Estruturado + variavel atomica;500;500;10;10;590,976;1264682,8309986220;sim
+V4a - Estruturado + variavel atomica;500;500;100;1;494,394;1264682,8309986508;sim
+V4a - Estruturado + variavel atomica;500;500;100;2;483,822;1264682,8309986508;sim
+V4a - Estruturado + variavel atomica;500;500;100;3;498,484;1264682,8309986508;sim
+V4a - Estruturado + variavel atomica;500;500;100;4;490,223;1264682,8309986508;sim
+V4a - Estruturado + variavel atomica;500;500;100;5;491,167;1264682,8309986508;sim
+V4a - Estruturado + variavel atomica;500;500;100;6;500,362;1264682,8309986508;sim
+V4a - Estruturado + variavel atomica;500;500;100;7;491,498;1264682,8309986508;sim
+V4a - Estruturado + variavel atomica;500;500;100;8;496,126;1264682,8309986508;sim
+V4a - Estruturado + variavel atomica;500;500;100;9;490,340;1264682,8309986508;sim
+V4a - Estruturado + variavel atomica;500;500;100;10;495,378;1264682,8309986508;sim
+V4b - Estruturado + colecao concorrente;500;500;5;1;874,425;1264682,8309987728;sim
+V4b - Estruturado + colecao concorrente;500;500;5;2;828,149;1264682,8309987728;sim
+V4b - Estruturado + colecao concorrente;500;500;5;3;822,803;1264682,8309987728;sim
+V4b - Estruturado + colecao concorrente;500;500;5;4;849,400;1264682,8309987728;sim
+V4b - Estruturado + colecao concorrente;500;500;5;5;817,580;1264682,8309987728;sim
+V4b - Estruturado + colecao concorrente;500;500;5;6;831,624;1264682,8309987728;sim
+V4b - Estruturado + colecao concorrente;500;500;5;7;870,605;1264682,8309987728;sim
+V4b - Estruturado + colecao concorrente;500;500;5;8;804,409;1264682,8309987728;sim
+V4b - Estruturado + colecao concorrente;500;500;5;9;837,093;1264682,8309987728;sim
+V4b - Estruturado + colecao concorrente;500;500;5;10;805,710;1264682,8309987728;sim
+V4b - Estruturado + colecao concorrente;500;500;10;1;586,199;1264682,8309986220;sim
+V4b - Estruturado + colecao concorrente;500;500;10;2;586,839;1264682,8309986223;sim
+V4b - Estruturado + colecao concorrente;500;500;10;3;592,525;1264682,8309986220;sim
+V4b - Estruturado + colecao concorrente;500;500;10;4;590,262;1264682,8309986220;sim
+V4b - Estruturado + colecao concorrente;500;500;10;5;595,707;1264682,8309986220;sim
+V4b - Estruturado + colecao concorrente;500;500;10;6;591,345;1264682,8309986220;sim
+V4b - Estruturado + colecao concorrente;500;500;10;7;591,185;1264682,8309986220;sim
+V4b - Estruturado + colecao concorrente;500;500;10;8;584,913;1264682,8309986220;sim
+V4b - Estruturado + colecao concorrente;500;500;10;9;589,058;1264682,8309986220;sim
+V4b - Estruturado + colecao concorrente;500;500;10;10;588,522;1264682,8309986223;sim
+V4b - Estruturado + colecao concorrente;500;500;100;1;486,403;1264682,8309986508;sim
+V4b - Estruturado + colecao concorrente;500;500;100;2;487,438;1264682,8309986508;sim
+V4b - Estruturado + colecao concorrente;500;500;100;3;495,866;1264682,8309986508;sim
+V4b - Estruturado + colecao concorrente;500;500;100;4;524,304;1264682,8309986508;sim
+V4b - Estruturado + colecao concorrente;500;500;100;5;501,548;1264682,8309986508;sim
+V4b - Estruturado + colecao concorrente;500;500;100;6;505,747;1264682,8309986508;sim
+V4b - Estruturado + colecao concorrente;500;500;100;7;541,936;1264682,8309986508;sim
+V4b - Estruturado + colecao concorrente;500;500;100;8;572,250;1264682,8309986508;sim
+V4b - Estruturado + colecao concorrente;500;500;100;9;521,851;1264682,8309986508;sim
+V4b - Estruturado + colecao concorrente;500;500;100;10;488,382;1264682,8309986508;sim
+V1 - Sequencial;1000;1000;-;1;12864,894;5058731,3239946430;sim
+V1 - Sequencial;1000;1000;-;2;12844,154;5058731,3239946430;sim
+V1 - Sequencial;1000;1000;-;3;12898,502;5058731,3239946430;sim
+V1 - Sequencial;1000;1000;-;4;12951,308;5058731,3239946430;sim
+V1 - Sequencial;1000;1000;-;5;12840,553;5058731,3239946430;sim
+V1 - Sequencial;1000;1000;-;6;12846,143;5058731,3239946430;sim
+V1 - Sequencial;1000;1000;-;7;12874,084;5058731,3239946430;sim
+V1 - Sequencial;1000;1000;-;8;12870,976;5058731,3239946430;sim
+V1 - Sequencial;1000;1000;-;9;12855,948;5058731,3239946430;sim
+V1 - Sequencial;1000;1000;-;10;12888,277;5058731,3239946430;sim
+V2 - Paralelismo nao estruturado;1000;1000;5;1;2960,777;5058731,3239945850;sim
+V2 - Paralelismo nao estruturado;1000;1000;5;2;3269,615;5058731,3239945850;sim
+V2 - Paralelismo nao estruturado;1000;1000;5;3;2967,268;5058731,3239945850;sim
+V2 - Paralelismo nao estruturado;1000;1000;5;4;3114,810;5058731,3239945850;sim
+V2 - Paralelismo nao estruturado;1000;1000;5;5;3018,299;5058731,3239945850;sim
+V2 - Paralelismo nao estruturado;1000;1000;5;6;3543,038;5058731,3239945850;sim
+V2 - Paralelismo nao estruturado;1000;1000;5;7;3452,773;5058731,3239945850;sim
+V2 - Paralelismo nao estruturado;1000;1000;5;8;3421,260;5058731,3239945850;sim
+V2 - Paralelismo nao estruturado;1000;1000;5;9;3231,221;5058731,3239945850;sim
+V2 - Paralelismo nao estruturado;1000;1000;5;10;3369,557;5058731,3239945850;sim
+V2 - Paralelismo nao estruturado;1000;1000;10;1;2717,349;5058731,3239951350;sim
+V2 - Paralelismo nao estruturado;1000;1000;10;2;2529,732;5058731,3239951350;sim
+V2 - Paralelismo nao estruturado;1000;1000;10;3;2519,868;5058731,3239951350;sim
+V2 - Paralelismo nao estruturado;1000;1000;10;4;2456,325;5058731,3239951350;sim
+V2 - Paralelismo nao estruturado;1000;1000;10;5;2420,339;5058731,3239951350;sim
+V2 - Paralelismo nao estruturado;1000;1000;10;6;2382,273;5058731,3239951350;sim
+V2 - Paralelismo nao estruturado;1000;1000;10;7;2495,703;5058731,3239951350;sim
+V2 - Paralelismo nao estruturado;1000;1000;10;8;2460,561;5058731,3239951350;sim
+V2 - Paralelismo nao estruturado;1000;1000;10;9;2405,856;5058731,3239951350;sim
+V2 - Paralelismo nao estruturado;1000;1000;10;10;2394,923;5058731,3239951350;sim
+V2 - Paralelismo nao estruturado;1000;1000;100;1;2060,675;5058731,3239946095;sim
+V2 - Paralelismo nao estruturado;1000;1000;100;2;2002,825;5058731,3239946095;sim
+V2 - Paralelismo nao estruturado;1000;1000;100;3;2018,911;5058731,3239946095;sim
+V2 - Paralelismo nao estruturado;1000;1000;100;4;2064,896;5058731,3239946095;sim
+V2 - Paralelismo nao estruturado;1000;1000;100;5;2136,913;5058731,3239946095;sim
+V2 - Paralelismo nao estruturado;1000;1000;100;6;2253,635;5058731,3239946095;sim
+V2 - Paralelismo nao estruturado;1000;1000;100;7;2333,752;5058731,3239946095;sim
+V2 - Paralelismo nao estruturado;1000;1000;100;8;1979,024;5058731,3239946095;sim
+V2 - Paralelismo nao estruturado;1000;1000;100;9;1924,552;5058731,3239946095;sim
+V2 - Paralelismo nao estruturado;1000;1000;100;10;1986,288;5058731,3239946095;sim
+V3 - Paralelismo estruturado;1000;1000;5;1;3031,120;5058731,3239945850;sim
+V3 - Paralelismo estruturado;1000;1000;5;2;3023,228;5058731,3239945850;sim
+V3 - Paralelismo estruturado;1000;1000;5;3;3073,017;5058731,3239945850;sim
+V3 - Paralelismo estruturado;1000;1000;5;4;3080,104;5058731,3239945850;sim
+V3 - Paralelismo estruturado;1000;1000;5;5;3161,714;5058731,3239945850;sim
+V3 - Paralelismo estruturado;1000;1000;5;6;3169,110;5058731,3239945850;sim
+V3 - Paralelismo estruturado;1000;1000;5;7;3047,129;5058731,3239945850;sim
+V3 - Paralelismo estruturado;1000;1000;5;8;3039,981;5058731,3239945850;sim
+V3 - Paralelismo estruturado;1000;1000;5;9;3060,930;5058731,3239945850;sim
+V3 - Paralelismo estruturado;1000;1000;5;10;3156,801;5058731,3239945850;sim
+V3 - Paralelismo estruturado;1000;1000;10;1;2358,531;5058731,3239951350;sim
+V3 - Paralelismo estruturado;1000;1000;10;2;2277,369;5058731,3239951350;sim
+V3 - Paralelismo estruturado;1000;1000;10;3;2284,657;5058731,3239951350;sim
+V3 - Paralelismo estruturado;1000;1000;10;4;2296,253;5058731,3239951350;sim
+V3 - Paralelismo estruturado;1000;1000;10;5;2287,610;5058731,3239951350;sim
+V3 - Paralelismo estruturado;1000;1000;10;6;2295,009;5058731,3239951350;sim
+V3 - Paralelismo estruturado;1000;1000;10;7;2389,325;5058731,3239951350;sim
+V3 - Paralelismo estruturado;1000;1000;10;8;2344,143;5058731,3239951350;sim
+V3 - Paralelismo estruturado;1000;1000;10;9;2299,139;5058731,3239951350;sim
+V3 - Paralelismo estruturado;1000;1000;10;10;2371,278;5058731,3239951350;sim
+V3 - Paralelismo estruturado;1000;1000;100;1;1948,057;5058731,3239946095;sim
+V3 - Paralelismo estruturado;1000;1000;100;2;1915,134;5058731,3239946095;sim
+V3 - Paralelismo estruturado;1000;1000;100;3;1943,706;5058731,3239946095;sim
+V3 - Paralelismo estruturado;1000;1000;100;4;1999,430;5058731,3239946095;sim
+V3 - Paralelismo estruturado;1000;1000;100;5;2033,842;5058731,3239946095;sim
+V3 - Paralelismo estruturado;1000;1000;100;6;1914,203;5058731,3239946095;sim
+V3 - Paralelismo estruturado;1000;1000;100;7;1941,315;5058731,3239946095;sim
+V3 - Paralelismo estruturado;1000;1000;100;8;1993,408;5058731,3239946095;sim
+V3 - Paralelismo estruturado;1000;1000;100;9;1938,432;5058731,3239946095;sim
+V3 - Paralelismo estruturado;1000;1000;100;10;1926,842;5058731,3239946095;sim
+V4a - Estruturado + variavel atomica;1000;1000;5;1;3238,854;5058731,3239945850;sim
+V4a - Estruturado + variavel atomica;1000;1000;5;2;3211,048;5058731,3239945850;sim
+V4a - Estruturado + variavel atomica;1000;1000;5;3;3195,319;5058731,3239945850;sim
+V4a - Estruturado + variavel atomica;1000;1000;5;4;3139,353;5058731,3239945850;sim
+V4a - Estruturado + variavel atomica;1000;1000;5;5;3022,348;5058731,3239945850;sim
+V4a - Estruturado + variavel atomica;1000;1000;5;6;3192,296;5058731,3239945850;sim
+V4a - Estruturado + variavel atomica;1000;1000;5;7;3164,257;5058731,3239945850;sim
+V4a - Estruturado + variavel atomica;1000;1000;5;8;3098,908;5058731,3239945850;sim
+V4a - Estruturado + variavel atomica;1000;1000;5;9;3078,249;5058731,3239945850;sim
+V4a - Estruturado + variavel atomica;1000;1000;5;10;3140,984;5058731,3239945850;sim
+V4a - Estruturado + variavel atomica;1000;1000;10;1;2294,046;5058731,3239951350;sim
+V4a - Estruturado + variavel atomica;1000;1000;10;2;2317,682;5058731,3239951350;sim
+V4a - Estruturado + variavel atomica;1000;1000;10;3;2267,217;5058731,3239951350;sim
+V4a - Estruturado + variavel atomica;1000;1000;10;4;2254,776;5058731,3239951350;sim
+V4a - Estruturado + variavel atomica;1000;1000;10;5;2269,982;5058731,3239951350;sim
+V4a - Estruturado + variavel atomica;1000;1000;10;6;2275,223;5058731,3239951350;sim
+V4a - Estruturado + variavel atomica;1000;1000;10;7;2343,133;5058731,3239951350;sim
+V4a - Estruturado + variavel atomica;1000;1000;10;8;2383,751;5058731,3239951350;sim
+V4a - Estruturado + variavel atomica;1000;1000;10;9;2268,359;5058731,3239951350;sim
+V4a - Estruturado + variavel atomica;1000;1000;10;10;2312,165;5058731,3239951350;sim
+V4a - Estruturado + variavel atomica;1000;1000;100;1;1949,785;5058731,3239946090;sim
+V4a - Estruturado + variavel atomica;1000;1000;100;2;1928,585;5058731,3239946095;sim
+V4a - Estruturado + variavel atomica;1000;1000;100;3;1931,633;5058731,3239946095;sim
+V4a - Estruturado + variavel atomica;1000;1000;100;4;2005,514;5058731,3239946090;sim
+V4a - Estruturado + variavel atomica;1000;1000;100;5;2102,860;5058731,3239946095;sim
+V4a - Estruturado + variavel atomica;1000;1000;100;6;2011,580;5058731,3239946095;sim
+V4a - Estruturado + variavel atomica;1000;1000;100;7;1910,932;5058731,3239946095;sim
+V4a - Estruturado + variavel atomica;1000;1000;100;8;1911,380;5058731,3239946095;sim
+V4a - Estruturado + variavel atomica;1000;1000;100;9;1953,509;5058731,3239946095;sim
+V4a - Estruturado + variavel atomica;1000;1000;100;10;1946,644;5058731,3239946090;sim
+V4b - Estruturado + colecao concorrente;1000;1000;5;1;3240,037;5058731,3239945850;sim
+V4b - Estruturado + colecao concorrente;1000;1000;5;2;3160,333;5058731,3239945850;sim
+V4b - Estruturado + colecao concorrente;1000;1000;5;3;3107,243;5058731,3239945850;sim
+V4b - Estruturado + colecao concorrente;1000;1000;5;4;3206,776;5058731,3239945850;sim
+V4b - Estruturado + colecao concorrente;1000;1000;5;5;3048,311;5058731,3239945850;sim
+V4b - Estruturado + colecao concorrente;1000;1000;5;6;3183,839;5058731,3239945850;sim
+V4b - Estruturado + colecao concorrente;1000;1000;5;7;3163,675;5058731,3239945850;sim
+V4b - Estruturado + colecao concorrente;1000;1000;5;8;3118,544;5058731,3239945850;sim
+V4b - Estruturado + colecao concorrente;1000;1000;5;9;3067,539;5058731,3239945850;sim
+V4b - Estruturado + colecao concorrente;1000;1000;5;10;3061,438;5058731,3239945850;sim
+V4b - Estruturado + colecao concorrente;1000;1000;10;1;2318,201;5058731,3239951350;sim
+V4b - Estruturado + colecao concorrente;1000;1000;10;2;2332,875;5058731,3239951350;sim
+V4b - Estruturado + colecao concorrente;1000;1000;10;3;2282,538;5058731,3239951350;sim
+V4b - Estruturado + colecao concorrente;1000;1000;10;4;2301,754;5058731,3239951350;sim
+V4b - Estruturado + colecao concorrente;1000;1000;10;5;2279,476;5058731,3239951350;sim
+V4b - Estruturado + colecao concorrente;1000;1000;10;6;2260,715;5058731,3239951350;sim
+V4b - Estruturado + colecao concorrente;1000;1000;10;7;2313,404;5058731,3239951350;sim
+V4b - Estruturado + colecao concorrente;1000;1000;10;8;2410,521;5058731,3239951350;sim
+V4b - Estruturado + colecao concorrente;1000;1000;10;9;2283,033;5058731,3239951350;sim
+V4b - Estruturado + colecao concorrente;1000;1000;10;10;2282,670;5058731,3239951350;sim
+V4b - Estruturado + colecao concorrente;1000;1000;100;1;1896,796;5058731,3239946095;sim
+V4b - Estruturado + colecao concorrente;1000;1000;100;2;1916,371;5058731,3239946095;sim
+V4b - Estruturado + colecao concorrente;1000;1000;100;3;1910,666;5058731,3239946095;sim
+V4b - Estruturado + colecao concorrente;1000;1000;100;4;1935,614;5058731,3239946095;sim
+V4b - Estruturado + colecao concorrente;1000;1000;100;5;2021,704;5058731,3239946095;sim
+V4b - Estruturado + colecao concorrente;1000;1000;100;6;2117,634;5058731,3239946095;sim
+V4b - Estruturado + colecao concorrente;1000;1000;100;7;1941,049;5058731,3239946090;sim
+V4b - Estruturado + colecao concorrente;1000;1000;100;8;1905,833;5058731,3239946090;sim
+V4b - Estruturado + colecao concorrente;1000;1000;100;9;1947,654;5058731,3239946095;sim
+V4b - Estruturado + colecao concorrente;1000;1000;100;10;1940,597;5058731,3239946095;sim
+V1 - Sequencial;1500;1500;-;1;28943,763;11382145,4789911860;sim
+V1 - Sequencial;1500;1500;-;2;29108,816;11382145,4789911860;sim
+V1 - Sequencial;1500;1500;-;3;28946,082;11382145,4789911860;sim
+V1 - Sequencial;1500;1500;-;4;28959,812;11382145,4789911860;sim
+V1 - Sequencial;1500;1500;-;5;28891,870;11382145,4789911860;sim
+V1 - Sequencial;1500;1500;-;6;28967,155;11382145,4789911860;sim
+V1 - Sequencial;1500;1500;-;7;28899,797;11382145,4789911860;sim
+V1 - Sequencial;1500;1500;-;8;28883,585;11382145,4789911860;sim
+V1 - Sequencial;1500;1500;-;9;28965,823;11382145,4789911860;sim
+V1 - Sequencial;1500;1500;-;10;28865,238;11382145,4789911860;sim
+V2 - Paralelismo nao estruturado;1500;1500;5;1;6664,955;11382145,4789840880;sim
+V2 - Paralelismo nao estruturado;1500;1500;5;2;6723,933;11382145,4789840880;sim
+V2 - Paralelismo nao estruturado;1500;1500;5;3;6638,920;11382145,4789840880;sim
+V2 - Paralelismo nao estruturado;1500;1500;5;4;6654,309;11382145,4789840880;sim
+V2 - Paralelismo nao estruturado;1500;1500;5;5;6546,273;11382145,4789840880;sim
+V2 - Paralelismo nao estruturado;1500;1500;5;6;6562,610;11382145,4789840880;sim
+V2 - Paralelismo nao estruturado;1500;1500;5;7;6606,971;11382145,4789840880;sim
+V2 - Paralelismo nao estruturado;1500;1500;5;8;6573,914;11382145,4789840880;sim
+V2 - Paralelismo nao estruturado;1500;1500;5;9;6656,794;11382145,4789840880;sim
+V2 - Paralelismo nao estruturado;1500;1500;5;10;6576,487;11382145,4789840880;sim
+V2 - Paralelismo nao estruturado;1500;1500;10;1;5409,501;11382145,4789870600;sim
+V2 - Paralelismo nao estruturado;1500;1500;10;2;5375,635;11382145,4789870600;sim
+V2 - Paralelismo nao estruturado;1500;1500;10;3;5401,888;11382145,4789870600;sim
+V2 - Paralelismo nao estruturado;1500;1500;10;4;5482,105;11382145,4789870600;sim
+V2 - Paralelismo nao estruturado;1500;1500;10;5;5402,022;11382145,4789870600;sim
+V2 - Paralelismo nao estruturado;1500;1500;10;6;5228,248;11382145,4789870600;sim
+V2 - Paralelismo nao estruturado;1500;1500;10;7;5296,131;11382145,4789870600;sim
+V2 - Paralelismo nao estruturado;1500;1500;10;8;5273,229;11382145,4789870600;sim
+V2 - Paralelismo nao estruturado;1500;1500;10;9;5190,557;11382145,4789870600;sim
+V2 - Paralelismo nao estruturado;1500;1500;10;10;5126,806;11382145,4789870600;sim
+V2 - Paralelismo nao estruturado;1500;1500;100;1;4299,113;11382145,4789876640;sim
+V2 - Paralelismo nao estruturado;1500;1500;100;2;4325,002;11382145,4789876640;sim
+V2 - Paralelismo nao estruturado;1500;1500;100;3;4340,573;11382145,4789876640;sim
+V2 - Paralelismo nao estruturado;1500;1500;100;4;4373,855;11382145,4789876640;sim
+V2 - Paralelismo nao estruturado;1500;1500;100;5;4299,372;11382145,4789876640;sim
+V2 - Paralelismo nao estruturado;1500;1500;100;6;4313,319;11382145,4789876640;sim
+V2 - Paralelismo nao estruturado;1500;1500;100;7;4330,645;11382145,4789876640;sim
+V2 - Paralelismo nao estruturado;1500;1500;100;8;4314,623;11382145,4789876640;sim
+V2 - Paralelismo nao estruturado;1500;1500;100;9;4325,089;11382145,4789876640;sim
+V2 - Paralelismo nao estruturado;1500;1500;100;10;4322,418;11382145,4789876640;sim
+V3 - Paralelismo estruturado;1500;1500;5;1;6737,120;11382145,4789840880;sim
+V3 - Paralelismo estruturado;1500;1500;5;2;6975,074;11382145,4789840880;sim
+V3 - Paralelismo estruturado;1500;1500;5;3;6907,118;11382145,4789840880;sim
+V3 - Paralelismo estruturado;1500;1500;5;4;6914,160;11382145,4789840880;sim
+V3 - Paralelismo estruturado;1500;1500;5;5;6922,119;11382145,4789840880;sim
+V3 - Paralelismo estruturado;1500;1500;5;6;6859,432;11382145,4789840880;sim
+V3 - Paralelismo estruturado;1500;1500;5;7;6761,672;11382145,4789840880;sim
+V3 - Paralelismo estruturado;1500;1500;5;8;6791,768;11382145,4789840880;sim
+V3 - Paralelismo estruturado;1500;1500;5;9;6802,736;11382145,4789840880;sim
+V3 - Paralelismo estruturado;1500;1500;5;10;6755,589;11382145,4789840880;sim
+V3 - Paralelismo estruturado;1500;1500;10;1;5007,320;11382145,4789870600;sim
+V3 - Paralelismo estruturado;1500;1500;10;2;5090,672;11382145,4789870600;sim
+V3 - Paralelismo estruturado;1500;1500;10;3;5117,421;11382145,4789870600;sim
+V3 - Paralelismo estruturado;1500;1500;10;4;5070,138;11382145,4789870600;sim
+V3 - Paralelismo estruturado;1500;1500;10;5;5156,602;11382145,4789870600;sim
+V3 - Paralelismo estruturado;1500;1500;10;6;5087,092;11382145,4789870600;sim
+V3 - Paralelismo estruturado;1500;1500;10;7;5041,439;11382145,4789870600;sim
+V3 - Paralelismo estruturado;1500;1500;10;8;5048,763;11382145,4789870600;sim
+V3 - Paralelismo estruturado;1500;1500;10;9;5083,607;11382145,4789870600;sim
+V3 - Paralelismo estruturado;1500;1500;10;10;5049,533;11382145,4789870600;sim
+V3 - Paralelismo estruturado;1500;1500;100;1;4314,137;11382145,4789876640;sim
+V3 - Paralelismo estruturado;1500;1500;100;2;4358,281;11382145,4789876640;sim
+V3 - Paralelismo estruturado;1500;1500;100;3;4349,176;11382145,4789876640;sim
+V3 - Paralelismo estruturado;1500;1500;100;4;4262,379;11382145,4789876640;sim
+V3 - Paralelismo estruturado;1500;1500;100;5;4302,372;11382145,4789876640;sim
+V3 - Paralelismo estruturado;1500;1500;100;6;4317,425;11382145,4789876640;sim
+V3 - Paralelismo estruturado;1500;1500;100;7;4253,882;11382145,4789876640;sim
+V3 - Paralelismo estruturado;1500;1500;100;8;4274,078;11382145,4789876640;sim
+V3 - Paralelismo estruturado;1500;1500;100;9;4296,927;11382145,4789876640;sim
+V3 - Paralelismo estruturado;1500;1500;100;10;4280,966;11382145,4789876640;sim
+V4a - Estruturado + variavel atomica;1500;1500;5;1;6974,758;11382145,4789840880;sim
+V4a - Estruturado + variavel atomica;1500;1500;5;2;7010,899;11382145,4789840880;sim
+V4a - Estruturado + variavel atomica;1500;1500;5;3;6915,905;11382145,4789840880;sim
+V4a - Estruturado + variavel atomica;1500;1500;5;4;6857,551;11382145,4789840880;sim
+V4a - Estruturado + variavel atomica;1500;1500;5;5;6838,129;11382145,4789840880;sim
+V4a - Estruturado + variavel atomica;1500;1500;5;6;6834,836;11382145,4789840880;sim
+V4a - Estruturado + variavel atomica;1500;1500;5;7;6936,602;11382145,4789840880;sim
+V4a - Estruturado + variavel atomica;1500;1500;5;8;6970,083;11382145,4789840880;sim
+V4a - Estruturado + variavel atomica;1500;1500;5;9;6962,801;11382145,4789840880;sim
+V4a - Estruturado + variavel atomica;1500;1500;5;10;6791,920;11382145,4789840880;sim
+V4a - Estruturado + variavel atomica;1500;1500;10;1;4984,847;11382145,4789870570;sim
+V4a - Estruturado + variavel atomica;1500;1500;10;2;4930,245;11382145,4789870570;sim
+V4a - Estruturado + variavel atomica;1500;1500;10;3;5019,362;11382145,4789870570;sim
+V4a - Estruturado + variavel atomica;1500;1500;10;4;5063,363;11382145,4789870570;sim
+V4a - Estruturado + variavel atomica;1500;1500;10;5;5008,895;11382145,4789870570;sim
+V4a - Estruturado + variavel atomica;1500;1500;10;6;5011,514;11382145,4789870590;sim
+V4a - Estruturado + variavel atomica;1500;1500;10;7;5052,934;11382145,4789870570;sim
+V4a - Estruturado + variavel atomica;1500;1500;10;8;5060,795;11382145,4789870570;sim
+V4a - Estruturado + variavel atomica;1500;1500;10;9;5152,778;11382145,4789870600;sim
+V4a - Estruturado + variavel atomica;1500;1500;10;10;5107,163;11382145,4789870570;sim
+V4a - Estruturado + variavel atomica;1500;1500;100;1;4294,434;11382145,4789876660;sim
+V4a - Estruturado + variavel atomica;1500;1500;100;2;4261,844;11382145,4789876660;sim
+V4a - Estruturado + variavel atomica;1500;1500;100;3;4294,421;11382145,4789876640;sim
+V4a - Estruturado + variavel atomica;1500;1500;100;4;4288,188;11382145,4789876640;sim
+V4a - Estruturado + variavel atomica;1500;1500;100;5;4294,037;11382145,4789876660;sim
+V4a - Estruturado + variavel atomica;1500;1500;100;6;4326,636;11382145,4789876640;sim
+V4a - Estruturado + variavel atomica;1500;1500;100;7;4252,124;11382145,4789876640;sim
+V4a - Estruturado + variavel atomica;1500;1500;100;8;4282,509;11382145,4789876640;sim
+V4a - Estruturado + variavel atomica;1500;1500;100;9;4230,107;11382145,4789876660;sim
+V4a - Estruturado + variavel atomica;1500;1500;100;10;4258,167;11382145,4789876640;sim
+V4b - Estruturado + colecao concorrente;1500;1500;5;1;6955,561;11382145,4789840880;sim
+V4b - Estruturado + colecao concorrente;1500;1500;5;2;6878,233;11382145,4789840880;sim
+V4b - Estruturado + colecao concorrente;1500;1500;5;3;6900,138;11382145,4789840880;sim
+V4b - Estruturado + colecao concorrente;1500;1500;5;4;6995,993;11382145,4789840880;sim
+V4b - Estruturado + colecao concorrente;1500;1500;5;5;7021,871;11382145,4789840880;sim
+V4b - Estruturado + colecao concorrente;1500;1500;5;6;7029,387;11382145,4789840880;sim
+V4b - Estruturado + colecao concorrente;1500;1500;5;7;7135,621;11382145,4789840880;sim
+V4b - Estruturado + colecao concorrente;1500;1500;5;8;6996,016;11382145,4789840880;sim
+V4b - Estruturado + colecao concorrente;1500;1500;5;9;6976,995;11382145,4789840880;sim
+V4b - Estruturado + colecao concorrente;1500;1500;5;10;6994,074;11382145,4789840880;sim
+V4b - Estruturado + colecao concorrente;1500;1500;10;1;5167,396;11382145,4789870570;sim
+V4b - Estruturado + colecao concorrente;1500;1500;10;2;5106,338;11382145,4789870570;sim
+V4b - Estruturado + colecao concorrente;1500;1500;10;3;5139,331;11382145,4789870600;sim
+V4b - Estruturado + colecao concorrente;1500;1500;10;4;5068,622;11382145,4789870570;sim
+V4b - Estruturado + colecao concorrente;1500;1500;10;5;5055,919;11382145,4789870570;sim
+V4b - Estruturado + colecao concorrente;1500;1500;10;6;5078,711;11382145,4789870570;sim
+V4b - Estruturado + colecao concorrente;1500;1500;10;7;5118,593;11382145,4789870570;sim
+V4b - Estruturado + colecao concorrente;1500;1500;10;8;5066,353;11382145,4789870570;sim
+V4b - Estruturado + colecao concorrente;1500;1500;10;9;5093,820;11382145,4789870570;sim
+V4b - Estruturado + colecao concorrente;1500;1500;10;10;5084,448;11382145,4789870570;sim
+V4b - Estruturado + colecao concorrente;1500;1500;100;1;4359,442;11382145,4789876660;sim
+V4b - Estruturado + colecao concorrente;1500;1500;100;2;4355,660;11382145,4789876660;sim
+V4b - Estruturado + colecao concorrente;1500;1500;100;3;4334,704;11382145,4789876640;sim
+V4b - Estruturado + colecao concorrente;1500;1500;100;4;4341,600;11382145,4789876640;sim
+V4b - Estruturado + colecao concorrente;1500;1500;100;5;4299,341;11382145,4789876660;sim
+V4b - Estruturado + colecao concorrente;1500;1500;100;6;4275,345;11382145,4789876640;sim
+V4b - Estruturado + colecao concorrente;1500;1500;100;7;4295,022;11382145,4789876640;sim
+V4b - Estruturado + colecao concorrente;1500;1500;100;8;4295,068;11382145,4789876660;sim
+V4b - Estruturado + colecao concorrente;1500;1500;100;9;4280,472;11382145,4789876640;sim
+V4b - Estruturado + colecao concorrente;1500;1500;100;10;4281,184;11382145,4789876640;sim
+V1 - Sequencial;2000;2000;-;1;51368,936;20234925,2960713400;sim
+V1 - Sequencial;2000;2000;-;2;51309,983;20234925,2960713400;sim
+V1 - Sequencial;2000;2000;-;3;51388,081;20234925,2960713400;sim
+V1 - Sequencial;2000;2000;-;4;51397,211;20234925,2960713400;sim
+V1 - Sequencial;2000;2000;-;5;51550,667;20234925,2960713400;sim
+V1 - Sequencial;2000;2000;-;6;51602,836;20234925,2960713400;sim
+V1 - Sequencial;2000;2000;-;7;51428,251;20234925,2960713400;sim
+V1 - Sequencial;2000;2000;-;8;51361,717;20234925,2960713400;sim
+V1 - Sequencial;2000;2000;-;9;51357,416;20234925,2960713400;sim
+V1 - Sequencial;2000;2000;-;10;51482,995;20234925,2960713400;sim
+V2 - Paralelismo nao estruturado;2000;2000;5;1;12090,308;20234925,2959797000;sim
+V2 - Paralelismo nao estruturado;2000;2000;5;2;12060,845;20234925,2959797000;sim
+V2 - Paralelismo nao estruturado;2000;2000;5;3;11790,980;20234925,2959797000;sim
+V2 - Paralelismo nao estruturado;2000;2000;5;4;11742,904;20234925,2959797000;sim
+V2 - Paralelismo nao estruturado;2000;2000;5;5;11767,625;20234925,2959797000;sim
+V2 - Paralelismo nao estruturado;2000;2000;5;6;11697,884;20234925,2959797000;sim
+V2 - Paralelismo nao estruturado;2000;2000;5;7;11642,605;20234925,2959797000;sim
+V2 - Paralelismo nao estruturado;2000;2000;5;8;11601,096;20234925,2959797000;sim
+V2 - Paralelismo nao estruturado;2000;2000;5;9;11579,648;20234925,2959797000;sim
+V2 - Paralelismo nao estruturado;2000;2000;5;10;11740,794;20234925,2959797000;sim
+V2 - Paralelismo nao estruturado;2000;2000;10;1;9552,003;20234925,2959704440;sim
+V2 - Paralelismo nao estruturado;2000;2000;10;2;9508,355;20234925,2959704440;sim
+V2 - Paralelismo nao estruturado;2000;2000;10;3;9340,279;20234925,2959704440;sim
+V2 - Paralelismo nao estruturado;2000;2000;10;4;9320,981;20234925,2959704440;sim
+V2 - Paralelismo nao estruturado;2000;2000;10;5;9244,911;20234925,2959704440;sim
+V2 - Paralelismo nao estruturado;2000;2000;10;6;9406,338;20234925,2959704440;sim
+V2 - Paralelismo nao estruturado;2000;2000;10;7;9430,121;20234925,2959704440;sim
+V2 - Paralelismo nao estruturado;2000;2000;10;8;9311,051;20234925,2959704440;sim
+V2 - Paralelismo nao estruturado;2000;2000;10;9;9319,282;20234925,2959704440;sim
+V2 - Paralelismo nao estruturado;2000;2000;10;10;9332,941;20234925,2959704440;sim
+V2 - Paralelismo nao estruturado;2000;2000;100;1;7635,115;20234925,2959796860;sim
+V2 - Paralelismo nao estruturado;2000;2000;100;2;7726,884;20234925,2959796860;sim
+V2 - Paralelismo nao estruturado;2000;2000;100;3;7674,098;20234925,2959796860;sim
+V2 - Paralelismo nao estruturado;2000;2000;100;4;7635,140;20234925,2959796860;sim
+V2 - Paralelismo nao estruturado;2000;2000;100;5;7726,587;20234925,2959796860;sim
+V2 - Paralelismo nao estruturado;2000;2000;100;6;7598,155;20234925,2959796860;sim
+V2 - Paralelismo nao estruturado;2000;2000;100;7;7722,462;20234925,2959796860;sim
+V2 - Paralelismo nao estruturado;2000;2000;100;8;7755,553;20234925,2959796860;sim
+V2 - Paralelismo nao estruturado;2000;2000;100;9;7738,366;20234925,2959796860;sim
+V2 - Paralelismo nao estruturado;2000;2000;100;10;7572,519;20234925,2959796860;sim
+V3 - Paralelismo estruturado;2000;2000;5;1;11440,226;20234925,2959797000;sim
+V3 - Paralelismo estruturado;2000;2000;5;2;12239,383;20234925,2959797000;sim
+V3 - Paralelismo estruturado;2000;2000;5;3;12167,986;20234925,2959797000;sim
+V3 - Paralelismo estruturado;2000;2000;5;4;12200,963;20234925,2959797000;sim
+V3 - Paralelismo estruturado;2000;2000;5;5;12221,529;20234925,2959797000;sim
+V3 - Paralelismo estruturado;2000;2000;5;6;12326,869;20234925,2959797000;sim
+V3 - Paralelismo estruturado;2000;2000;5;7;12418,766;20234925,2959797000;sim
+V3 - Paralelismo estruturado;2000;2000;5;8;12384,635;20234925,2959797000;sim
+V3 - Paralelismo estruturado;2000;2000;5;9;12158,731;20234925,2959797000;sim
+V3 - Paralelismo estruturado;2000;2000;5;10;12129,513;20234925,2959797000;sim
+V3 - Paralelismo estruturado;2000;2000;10;1;8988,124;20234925,2959704440;sim
+V3 - Paralelismo estruturado;2000;2000;10;2;8986,564;20234925,2959704440;sim
+V3 - Paralelismo estruturado;2000;2000;10;3;8969,693;20234925,2959704440;sim
+V3 - Paralelismo estruturado;2000;2000;10;4;8962,370;20234925,2959704440;sim
+V3 - Paralelismo estruturado;2000;2000;10;5;8978,917;20234925,2959704440;sim
+V3 - Paralelismo estruturado;2000;2000;10;6;9003,623;20234925,2959704440;sim
+V3 - Paralelismo estruturado;2000;2000;10;7;8987,317;20234925,2959704440;sim
+V3 - Paralelismo estruturado;2000;2000;10;8;9032,348;20234925,2959704440;sim
+V3 - Paralelismo estruturado;2000;2000;10;9;8943,151;20234925,2959704440;sim
+V3 - Paralelismo estruturado;2000;2000;10;10;8802,363;20234925,2959704440;sim
+V3 - Paralelismo estruturado;2000;2000;100;1;7590,223;20234925,2959796860;sim
+V3 - Paralelismo estruturado;2000;2000;100;2;7584,430;20234925,2959796860;sim
+V3 - Paralelismo estruturado;2000;2000;100;3;7604,400;20234925,2959796860;sim
+V3 - Paralelismo estruturado;2000;2000;100;4;7583,728;20234925,2959796860;sim
+V3 - Paralelismo estruturado;2000;2000;100;5;7605,782;20234925,2959796860;sim
+V3 - Paralelismo estruturado;2000;2000;100;6;7652,888;20234925,2959796860;sim
+V3 - Paralelismo estruturado;2000;2000;100;7;7589,537;20234925,2959796860;sim
+V3 - Paralelismo estruturado;2000;2000;100;8;7594,874;20234925,2959796860;sim
+V3 - Paralelismo estruturado;2000;2000;100;9;7632,280;20234925,2959796860;sim
+V3 - Paralelismo estruturado;2000;2000;100;10;7577,291;20234925,2959796860;sim
+V4a - Estruturado + variavel atomica;2000;2000;5;1;12310,741;20234925,2959797000;sim
+V4a - Estruturado + variavel atomica;2000;2000;5;2;12209,330;20234925,2959797000;sim
+V4a - Estruturado + variavel atomica;2000;2000;5;3;12142,436;20234925,2959797000;sim
+V4a - Estruturado + variavel atomica;2000;2000;5;4;12064,682;20234925,2959797000;sim
+V4a - Estruturado + variavel atomica;2000;2000;5;5;12107,337;20234925,2959797000;sim
+V4a - Estruturado + variavel atomica;2000;2000;5;6;12092,345;20234925,2959797000;sim
+V4a - Estruturado + variavel atomica;2000;2000;5;7;12193,705;20234925,2959797000;sim
+V4a - Estruturado + variavel atomica;2000;2000;5;8;12007,818;20234925,2959797000;sim
+V4a - Estruturado + variavel atomica;2000;2000;5;9;11991,889;20234925,2959797000;sim
+V4a - Estruturado + variavel atomica;2000;2000;5;10;12022,508;20234925,2959797000;sim
+V4a - Estruturado + variavel atomica;2000;2000;10;1;8885,706;20234925,2959704440;sim
+V4a - Estruturado + variavel atomica;2000;2000;10;2;9009,155;20234925,2959704440;sim
+V4a - Estruturado + variavel atomica;2000;2000;10;3;9383,893;20234925,2959704440;sim
+V4a - Estruturado + variavel atomica;2000;2000;10;4;8924,722;20234925,2959704440;sim
+V4a - Estruturado + variavel atomica;2000;2000;10;5;8976,669;20234925,2959704440;sim
+V4a - Estruturado + variavel atomica;2000;2000;10;6;8999,027;20234925,2959704440;sim
+V4a - Estruturado + variavel atomica;2000;2000;10;7;8973,680;20234925,2959704440;sim
+V4a - Estruturado + variavel atomica;2000;2000;10;8;8972,158;20234925,2959704440;sim
+V4a - Estruturado + variavel atomica;2000;2000;10;9;8847,735;20234925,2959704440;sim
+V4a - Estruturado + variavel atomica;2000;2000;10;10;8906,348;20234925,2959704440;sim
+V4a - Estruturado + variavel atomica;2000;2000;100;1;7627,845;20234925,2959796860;sim
+V4a - Estruturado + variavel atomica;2000;2000;100;2;7612,527;20234925,2959796860;sim
+V4a - Estruturado + variavel atomica;2000;2000;100;3;7591,040;20234925,2959796860;sim
+V4a - Estruturado + variavel atomica;2000;2000;100;4;7544,193;20234925,2959796860;sim
+V4a - Estruturado + variavel atomica;2000;2000;100;5;7591,549;20234925,2959796860;sim
+V4a - Estruturado + variavel atomica;2000;2000;100;6;7477,905;20234925,2959796860;sim
+V4a - Estruturado + variavel atomica;2000;2000;100;7;7502,153;20234925,2959796860;sim
+V4a - Estruturado + variavel atomica;2000;2000;100;8;7524,102;20234925,2959796860;sim
+V4a - Estruturado + variavel atomica;2000;2000;100;9;7550,090;20234925,2959796860;sim
+V4a - Estruturado + variavel atomica;2000;2000;100;10;7513,107;20234925,2959796860;sim
+V4b - Estruturado + colecao concorrente;2000;2000;5;1;12164,196;20234925,2959797000;sim
+V4b - Estruturado + colecao concorrente;2000;2000;5;2;12174,861;20234925,2959797000;sim
+V4b - Estruturado + colecao concorrente;2000;2000;5;3;12305,127;20234925,2959797000;sim
+V4b - Estruturado + colecao concorrente;2000;2000;5;4;12329,189;20234925,2959797000;sim
+V4b - Estruturado + colecao concorrente;2000;2000;5;5;12379,896;20234925,2959797000;sim
+V4b - Estruturado + colecao concorrente;2000;2000;5;6;12531,350;20234925,2959797000;sim
+V4b - Estruturado + colecao concorrente;2000;2000;5;7;12355,541;20234925,2959797000;sim
+V4b - Estruturado + colecao concorrente;2000;2000;5;8;12373,017;20234925,2959797000;sim
+V4b - Estruturado + colecao concorrente;2000;2000;5;9;12462,682;20234925,2959797000;sim
+V4b - Estruturado + colecao concorrente;2000;2000;5;10;12482,603;20234925,2959797000;sim
+V4b - Estruturado + colecao concorrente;2000;2000;10;1;9014,445;20234925,2959704440;sim
+V4b - Estruturado + colecao concorrente;2000;2000;10;2;9106,938;20234925,2959704440;sim
+V4b - Estruturado + colecao concorrente;2000;2000;10;3;9036,547;20234925,2959704440;sim
+V4b - Estruturado + colecao concorrente;2000;2000;10;4;9124,411;20234925,2959704440;sim
+V4b - Estruturado + colecao concorrente;2000;2000;10;5;9112,445;20234925,2959704440;sim
+V4b - Estruturado + colecao concorrente;2000;2000;10;6;9164,408;20234925,2959704440;sim
+V4b - Estruturado + colecao concorrente;2000;2000;10;7;9118,680;20234925,2959704440;sim
+V4b - Estruturado + colecao concorrente;2000;2000;10;8;9082,797;20234925,2959704440;sim
+V4b - Estruturado + colecao concorrente;2000;2000;10;9;9108,830;20234925,2959704440;sim
+V4b - Estruturado + colecao concorrente;2000;2000;10;10;9077,023;20234925,2959704440;sim
+V4b - Estruturado + colecao concorrente;2000;2000;100;1;7687,321;20234925,2959796860;sim
+V4b - Estruturado + colecao concorrente;2000;2000;100;2;7626,889;20234925,2959796860;sim
+V4b - Estruturado + colecao concorrente;2000;2000;100;3;7666,586;20234925,2959796860;sim
+V4b - Estruturado + colecao concorrente;2000;2000;100;4;7646,935;20234925,2959796860;sim
+V4b - Estruturado + colecao concorrente;2000;2000;100;5;7658,568;20234925,2959796860;sim
+V4b - Estruturado + colecao concorrente;2000;2000;100;6;7679,547;20234925,2959796860;sim
+V4b - Estruturado + colecao concorrente;2000;2000;100;7;7822,710;20234925,2959796860;sim
+V4b - Estruturado + colecao concorrente;2000;2000;100;8;7679,940;20234925,2959796860;sim
+V4b - Estruturado + colecao concorrente;2000;2000;100;9;7691,324;20234925,2959796860;sim
+V4b - Estruturado + colecao concorrente;2000;2000;100;10;7638,588;20234925,2959796860;sim

@@ -155,3 +155,13 @@ Speedup = tempo sequencial / tempo paralelo. "Resultado correto" compara com o s
 | Estruturado + coleção | 5 | 1.998,3 (3,10) ¹ | 8.286,3 (3,61) ¹ | 7.140,5 (10,10) ² | 31.857,1 (1,63) ¹ |
 | Estruturado + coleção | 10 | 2.048,4 (3,02) ¹ | 8.135,5 (3,68) ¹ | 5.299,1 (13,61) ² | 31.739,7 (1,63) ¹ |
 | Estruturado + coleção | 100 | 2.001,8 (3,09) ¹ | 8.247,0 (3,63) ¹ | 4.413,9 (16,34) ² | 29.240,9 (1,77) ¹ |
+
+### Observações sobre a medição
+
+¹ **Medido com o notebook em estado de desempenho reduzido** (provável economia de energia ou redução térmica da CPU). Nesses trechos todas as versões, inclusive a sequencial, ficaram de 2 a 4 vezes mais lentas, e os tempos deixaram de variar com a quantidade de tarefas. Os valores não representam o desempenho real das implementações.
+
+² **Speedup distorcido para cima.** O tempo da versão paralela foi medido com o notebook em estado normal, mas o sequencial da mesma matriz rodou no estado reduzido, inflando a razão.
+
+³ Com 10 e 100 tarefas, esta versão foi afetada pelo estado reduzido (ver tabela detalhada), por isso a melhor medição válida foi a de 5 tarefas.
+
+Os cenários sem marcação, principalmente sequencial, não estruturado e estruturado na matriz 2000 x 2000, foram medidos inteiramente no estado normal e são a referência mais confiável de desempenho.

@@ -86,7 +86,7 @@ O **resultado** deve ser o mesmo (ou muito próximo, dada a natureza de soma em 
 Caso o grupo tenha implementado o `Experimento.java`, é possível rodar automaticamente todas as combinações de tamanho de matriz × quantidade de tarefas × implementação, 10 repetições cada, gerando a tabela final:
 
 ```bash
-java --enable-preview -cp bin Benchmark.Experimento
+java --enable-preview -cp bin core.Experimento
 ```
 
 O resultado é salvo em `resultados/tabela_final.csv`, com tempo médio, speedup e verificação de corretude para cada combinação.

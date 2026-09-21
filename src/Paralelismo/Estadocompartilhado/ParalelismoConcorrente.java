@@ -70,7 +70,7 @@ public class ParalelismoConcorrente {
         System.out.println("=== Referência sequencial ===");
         double referencia = Sequencial.processar(matriz);
 
-        System.out.println("=== V4b - Estruturado + Coleções Concorrentes (ConcurrentLinkedQueue) ===");
+        System.out.println("=== V4b - Estruturado + Colecoes Concorrentes (ConcurrentLinkedQueue) ===");
         for (int tarefas1 : new int[] { 5, 10, 100 }) {
             long inicio = System.nanoTime();
             double resultado = processar(matriz, tarefas1);
